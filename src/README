@@ -1,0 +1,7 @@
+##To run the code:
+
+In the src folder, to convert the video to images run `python3 video_to_images.py`
+
+That script needs to be run on both, test.mp4 and train.mp4. The script will need to be edited for each.
+
+After that, run `python3 image_processing.py` to run the main script and generate the predictions. The predictions will be stored in test.txt file in the data folder.
